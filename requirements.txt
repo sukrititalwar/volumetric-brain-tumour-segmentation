@@ -1,0 +1,9 @@
+torch>=2.5
+numpy
+scipy
+scikit-learn
+nibabel
+pillow
+matplotlib
+kagglehub
+gdown

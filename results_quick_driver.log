@@ -1,0 +1,2 @@
+>> scripts/hpo.py --dataset brats --optimizer runu-eco --pop 6 --iters 4 --epochs 3 --budget-scale 0.1 --out results/quick/hpo --max-train 60 --max-val 12
+>> scripts/hpo.py --dataset brats --optimizer eco --pop 6 --iters 4 --epochs 3 --budget-scale 0.1 --out results/quick/hpo --max-train 60 --max-val 12
