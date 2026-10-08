@@ -1,0 +1,33 @@
+start 22:29:34
+>> scripts/cross_validate.py --model svaeunetpp --tag runu_eco_svaeunetpp --lr 0.009652660953493764 --hidden-neurons 95 --steps-per-epoch 32 --save-preds --dataset brats --epochs 5 --folds 0 --out results/mini/cv --max-train 60 --max-test 20
+   brats: ECO found the same hyper-parameters as RUNU-ECO - ECO-SVAEUnet++ CV skipped (it would retrain an identical configuration)
+>> scripts/cross_validate.py --model svaeunetpp --steps-per-epoch 25 --dataset brats --epochs 5 --folds 0 --out results/mini/cv --max-train 60 --max-test 20
+>> scripts/cross_validate.py --model efficient_unet --steps-per-epoch 25 --dataset brats --epochs 5 --folds 0 --out results/mini/cv --max-train 60 --max-test 20
+>> scripts/cross_validate.py --model efficient_unetpp --steps-per-epoch 25 --dataset brats --epochs 5 --folds 0 --out results/mini/cv --max-train 60 --max-test 20
+>> scripts/cross_validate.py --model unet --steps-per-epoch 25 --save-preds --dataset brats --epochs 5 --folds 0 --out results/mini/cv --max-train 60 --max-test 20
+>> scripts/cross_validate.py --model unetpp --steps-per-epoch 25 --save-preds --dataset brats --epochs 5 --folds 0 --out results/mini/cv --max-train 60 --max-test 20
+>> scripts/cross_validate.py --model unet3p --steps-per-epoch 25 --save-preds --dataset brats --epochs 5 --folds 0 --out results/mini/cv --max-train 60 --max-test 20
+>> scripts/report.py --results results/mini
+>> scripts/hpo.py --dataset figshare --optimizer runu-eco --pop 4 --iters 2 --epochs 2 --budget-scale 0.05 --out results/mini/hpo --max-train 300 --max-val 60
+>> scripts/hpo.py --dataset figshare --optimizer eco --pop 4 --iters 2 --epochs 2 --budget-scale 0.05 --out results/mini/hpo --max-train 300 --max-val 60
+>> scripts/cross_validate.py --model svaeunetpp --tag runu_eco_svaeunetpp --lr 0.003790099643919269 --hidden-neurons 244 --steps-per-epoch 50 --save-preds --dataset figshare --epochs 5 --folds 0 --out results/mini/cv --max-train 600 --max-test 200
+   figshare: ECO found the same hyper-parameters as RUNU-ECO - ECO-SVAEUnet++ CV skipped (it would retrain an identical configuration)
+>> scripts/cross_validate.py --model svaeunetpp --steps-per-epoch 25 --dataset figshare --epochs 5 --folds 0 --out results/mini/cv --max-train 600 --max-test 200
+>> scripts/cross_validate.py --model efficient_unet --steps-per-epoch 25 --dataset figshare --epochs 5 --folds 0 --out results/mini/cv --max-train 600 --max-test 200
+>> scripts/cross_validate.py --model efficient_unetpp --steps-per-epoch 25 --dataset figshare --epochs 5 --folds 0 --out results/mini/cv --max-train 600 --max-test 200
+>> scripts/cross_validate.py --model unet --steps-per-epoch 25 --save-preds --dataset figshare --epochs 5 --folds 0 --out results/mini/cv --max-train 600 --max-test 200
+>> scripts/cross_validate.py --model unetpp --steps-per-epoch 25 --save-preds --dataset figshare --epochs 5 --folds 0 --out results/mini/cv --max-train 600 --max-test 200
+>> scripts/cross_validate.py --model unet3p --steps-per-epoch 25 --save-preds --dataset figshare --epochs 5 --folds 0 --out results/mini/cv --max-train 600 --max-test 200
+>> scripts/report.py --results results/mini
+>> scripts/hpo.py --dataset lgg --optimizer runu-eco --pop 4 --iters 2 --epochs 2 --budget-scale 0.05 --out results/mini/hpo --max-train 300 --max-val 60
+>> scripts/hpo.py --dataset lgg --optimizer eco --pop 4 --iters 2 --epochs 2 --budget-scale 0.05 --out results/mini/hpo --max-train 300 --max-val 60
+>> scripts/cross_validate.py --model svaeunetpp --tag runu_eco_svaeunetpp --lr 0.0016401896152067506 --hidden-neurons 21 --steps-per-epoch 23 --save-preds --dataset lgg --epochs 5 --folds 0 --out results/mini/cv --max-train 600 --max-test 200
+   lgg: ECO found the same hyper-parameters as RUNU-ECO - ECO-SVAEUnet++ CV skipped (it would retrain an identical configuration)
+>> scripts/cross_validate.py --model svaeunetpp --steps-per-epoch 25 --dataset lgg --epochs 5 --folds 0 --out results/mini/cv --max-train 600 --max-test 200
+>> scripts/cross_validate.py --model efficient_unet --steps-per-epoch 25 --dataset lgg --epochs 5 --folds 0 --out results/mini/cv --max-train 600 --max-test 200
+>> scripts/cross_validate.py --model efficient_unetpp --steps-per-epoch 25 --dataset lgg --epochs 5 --folds 0 --out results/mini/cv --max-train 600 --max-test 200
+>> scripts/cross_validate.py --model unet --steps-per-epoch 25 --save-preds --dataset lgg --epochs 5 --folds 0 --out results/mini/cv --max-train 600 --max-test 200
+>> scripts/cross_validate.py --model unetpp --steps-per-epoch 25 --save-preds --dataset lgg --epochs 5 --folds 0 --out results/mini/cv --max-train 600 --max-test 200
+>> scripts/cross_validate.py --model unet3p --steps-per-epoch 25 --save-preds --dataset lgg --epochs 5 --folds 0 --out results/mini/cv --max-train 600 --max-test 200
+>> scripts/report.py --results results/mini
+all done

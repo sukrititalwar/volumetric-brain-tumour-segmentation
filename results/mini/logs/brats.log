@@ -1,0 +1,94 @@
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+[svaeunetpp] brats fold 0: train=60 val=10 test=20
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+  ep   1/5 loss=0.9611 val_loss=0.8848 val_dice=0.4509 val_iou=0.3273 [35s]
+  ep   2/5 loss=0.4271 val_loss=0.6233 val_dice=0.5466 val_iou=0.4280 [69s]
+  ep   3/5 loss=0.2840 val_loss=0.5400 val_dice=0.5883 val_iou=0.4642 [97s]
+  ep   4/5 loss=0.2858 val_loss=0.4505 val_dice=0.6669 val_iou=0.5424 [122s]
+  ep   5/5 loss=0.2682 val_loss=0.4414 val_dice=0.6735 val_iou=0.5496 [145s]
+[svaeunetpp] fold 0 TEST: dice=0.6624 iou=0.5485 accuracy=0.9798 sensitivity=0.9567 precision=0.5712
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+[svaeunetpp] brats fold 0: train=60 val=10 test=20
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+  ep   1/5 loss=1.4597 val_loss=1.5658 val_dice=0.2031 val_iou=0.1200 [23s]
+  ep   2/5 loss=1.3282 val_loss=1.5092 val_dice=0.2978 val_iou=0.1929 [46s]
+  ep   3/5 loss=1.2446 val_loss=1.4738 val_dice=0.3235 val_iou=0.2175 [69s]
+  ep   4/5 loss=1.2237 val_loss=1.4539 val_dice=0.3477 val_iou=0.2358 [92s]
+  ep   5/5 loss=1.2192 val_loss=1.4518 val_dice=0.3479 val_iou=0.2358 [115s]
+[svaeunetpp] fold 0 TEST: dice=0.3695 iou=0.2504 accuracy=0.9209 sensitivity=0.9949 precision=0.2511
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+[efficient_unet] brats fold 0: train=60 val=10 test=20
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+  ep   1/5 loss=1.4132 val_loss=1.5372 val_dice=0.2462 val_iou=0.1521 [15s]
+  ep   2/5 loss=1.2993 val_loss=1.4793 val_dice=0.3206 val_iou=0.2126 [26s]
+  ep   3/5 loss=1.1844 val_loss=1.4553 val_dice=0.3214 val_iou=0.2132 [36s]
+  ep   4/5 loss=1.1321 val_loss=1.4468 val_dice=0.3255 val_iou=0.2178 [45s]
+  ep   5/5 loss=1.2424 val_loss=1.4437 val_dice=0.3292 val_iou=0.2210 [57s]
+[efficient_unet] fold 0 TEST: dice=0.3480 iou=0.2307 accuracy=0.9143 sensitivity=0.9933 precision=0.2315
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+[efficient_unetpp] brats fold 0: train=60 val=10 test=20
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+  ep   1/5 loss=1.4689 val_loss=1.6411 val_dice=0.0958 val_iou=0.0516 [23s]
+  ep   2/5 loss=1.3301 val_loss=1.5689 val_dice=0.1913 val_iou=0.1127 [45s]
+  ep   3/5 loss=1.2086 val_loss=1.5334 val_dice=0.2529 val_iou=0.1571 [64s]
+  ep   4/5 loss=1.1497 val_loss=1.5158 val_dice=0.2750 val_iou=0.1750 [84s]
+  ep   5/5 loss=1.1615 val_loss=1.5118 val_dice=0.2816 val_iou=0.1801 [102s]
+[efficient_unetpp] fold 0 TEST: dice=0.2970 iou=0.1881 accuracy=0.8918 sensitivity=0.9951 precision=0.1886
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+[unet] brats fold 0: train=60 val=10 test=20
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+  ep   1/5 loss=1.2559 val_loss=1.4419 val_dice=0.3706 val_iou=0.2572 [17s]
+  ep   2/5 loss=1.0725 val_loss=1.3908 val_dice=0.3949 val_iou=0.2807 [33s]
+  ep   3/5 loss=1.1530 val_loss=1.3517 val_dice=0.4217 val_iou=0.3022 [48s]
+  ep   4/5 loss=1.0246 val_loss=1.3479 val_dice=0.3915 val_iou=0.2763 [64s]
+  ep   5/5 loss=1.0334 val_loss=1.3430 val_dice=0.4029 val_iou=0.2866 [79s]
+[unet] fold 0 TEST: dice=0.4518 iou=0.3260 accuracy=0.9446 sensitivity=0.9861 precision=0.3292
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+[unetpp] brats fold 0: train=60 val=10 test=20
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+  ep   1/5 loss=1.3077 val_loss=1.4555 val_dice=0.3616 val_iou=0.2505 [37s]
+  ep   2/5 loss=1.1646 val_loss=1.4239 val_dice=0.3565 val_iou=0.2476 [82s]
+  ep   3/5 loss=1.1553 val_loss=1.3781 val_dice=0.4333 val_iou=0.3103 [121s]
+  ep   4/5 loss=1.1070 val_loss=1.3684 val_dice=0.4306 val_iou=0.3081 [159s]
+  ep   5/5 loss=1.1028 val_loss=1.3684 val_dice=0.4252 val_iou=0.3054 [199s]
+[unetpp] fold 0 TEST: dice=0.4651 iou=0.3361 accuracy=0.9470 sensitivity=0.9818 precision=0.3404
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+[unet3p] brats fold 0: train=60 val=10 test=20
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+  ep   1/5 loss=1.2081 val_loss=1.3360 val_dice=0.3722 val_iou=0.2523 [64s]
+  ep   2/5 loss=0.9173 val_loss=1.2219 val_dice=0.4406 val_iou=0.3189 [134s]
+  ep   3/5 loss=0.8491 val_loss=1.1427 val_dice=0.4877 val_iou=0.3598 [208s]
+  ep   4/5 loss=0.7744 val_loss=1.1134 val_dice=0.5037 val_iou=0.3746 [281s]
+  ep   5/5 loss=0.7420 val_loss=1.1105 val_dice=0.4960 val_iou=0.3676 [362s]
+[unet3p] fold 0 TEST: dice=0.5182 iou=0.3894 accuracy=0.9591 sensitivity=0.9771 precision=0.3960
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+wrote results/mini/report/REPORT.md

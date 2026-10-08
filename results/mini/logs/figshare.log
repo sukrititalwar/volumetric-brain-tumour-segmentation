@@ -1,0 +1,226 @@
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+RUNU-ECO on figshare: pop=4 iters=2 epochs=2 budget_scale=0.05 train=300 val=60
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 236, 'learning_rate': 0.0037671658692899498, 'steps_per_epoch': 163} -> IoU=0.0566 fitness=17.6821 (39s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 21, 'learning_rate': 0.0016401896152067506, 'steps_per_epoch': 227} -> IoU=0.1313 fitness=7.6179 (37s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 244, 'learning_rate': 0.003790099643919269, 'steps_per_epoch': 497} -> IoU=0.2607 fitness=3.8361 (54s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 66, 'learning_rate': 0.001591813775643241, 'steps_per_epoch': 104} -> IoU=0.0304 fitness=32.8502 (29s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 244, 'learning_rate': 0.0001, 'steps_per_epoch': 500} -> IoU=0.0327 fitness=30.6021 (49s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 34, 'learning_rate': 0.0017180986997475237, 'steps_per_epoch': 242} -> IoU=0.0652 fitness=15.3433 (35s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 236, 'learning_rate': 0.0037665492407306096, 'steps_per_epoch': 154} -> IoU=0.0565 fitness=17.6874 (29s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 68, 'learning_rate': 0.0016116176314926755, 'steps_per_epoch': 110} -> IoU=0.0241 fitness=41.5017 (27s)
+[RUNU-ECO] iter 1/2 best=3.83613 mean=15.4966
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 244, 'learning_rate': 0.003790099643898139, 'steps_per_epoch': 497} -> IoU=0.2607 fitness=3.8361 (51s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 21, 'learning_rate': 0.0016401896151962314, 'steps_per_epoch': 227} -> IoU=0.1313 fitness=7.6179 (32s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 236, 'learning_rate': 0.003767165869268925, 'steps_per_epoch': 163} -> IoU=0.0566 fitness=17.6821 (29s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 66, 'learning_rate': 0.0015918137756329846, 'steps_per_epoch': 104} -> IoU=0.0304 fitness=32.8502 (25s)
+[RUNU-ECO] iter 2/2 best=3.83613 mean=15.4966
+best {'hidden_neurons': 244, 'learning_rate': 0.003790099643919269, 'steps_per_epoch': 497} IoU=0.2607 -> results/mini/hpo/figshare_runu-eco.json
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+ECO on figshare: pop=4 iters=2 epochs=2 budget_scale=0.05 train=300 val=60
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 236, 'learning_rate': 0.0037671658692899498, 'steps_per_epoch': 163} -> IoU=0.0566 fitness=17.6821 (32s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 21, 'learning_rate': 0.0016401896152067506, 'steps_per_epoch': 227} -> IoU=0.1313 fitness=7.6179 (32s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 244, 'learning_rate': 0.003790099643919269, 'steps_per_epoch': 497} -> IoU=0.2607 fitness=3.8361 (47s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 66, 'learning_rate': 0.001591813775643241, 'steps_per_epoch': 104} -> IoU=0.0304 fitness=32.8502 (26s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 244, 'learning_rate': 0.0001, 'steps_per_epoch': 500} -> IoU=0.0327 fitness=30.6021 (47s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 34, 'learning_rate': 0.0017180986997475237, 'steps_per_epoch': 242} -> IoU=0.0652 fitness=15.3433 (32s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 236, 'learning_rate': 0.0037665492407306096, 'steps_per_epoch': 154} -> IoU=0.0565 fitness=17.6874 (28s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 68, 'learning_rate': 0.0016116176314926755, 'steps_per_epoch': 110} -> IoU=0.0241 fitness=41.5017 (27s)
+[ECO] iter 1/2 best=3.83613 mean=15.4966
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 244, 'learning_rate': 0.003790099643898139, 'steps_per_epoch': 497} -> IoU=0.2607 fitness=3.8361 (44s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 21, 'learning_rate': 0.0016401896151962314, 'steps_per_epoch': 227} -> IoU=0.1313 fitness=7.6179 (37s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 236, 'learning_rate': 0.003767165869268925, 'steps_per_epoch': 163} -> IoU=0.0566 fitness=17.6821 (28s)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+    eval {'hidden_neurons': 66, 'learning_rate': 0.0015918137756329846, 'steps_per_epoch': 104} -> IoU=0.0304 fitness=32.8502 (26s)
+[ECO] iter 2/2 best=3.83613 mean=15.4966
+best {'hidden_neurons': 244, 'learning_rate': 0.003790099643919269, 'steps_per_epoch': 497} IoU=0.2607 -> results/mini/hpo/figshare_eco.json
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+[svaeunetpp] figshare fold 0: train=600 val=100 test=200
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+  ep   1/5 loss=1.3540 val_loss=1.1372 val_dice=0.3559 val_iou=0.2537 [27s]
+  ep   2/5 loss=1.0486 val_loss=0.9199 val_dice=0.4156 val_iou=0.3104 [54s]
+  ep   3/5 loss=0.8489 val_loss=0.7475 val_dice=0.4764 val_iou=0.3669 [80s]
+  ep   4/5 loss=0.7449 val_loss=0.6496 val_dice=0.5531 val_iou=0.4402 [107s]
+  ep   5/5 loss=0.6804 val_loss=0.6387 val_dice=0.5496 val_iou=0.4293 [133s]
+[svaeunetpp] fold 0 TEST: dice=0.5587 iou=0.4458 accuracy=0.9858 sensitivity=0.6258 precision=0.5913
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+[svaeunetpp] figshare fold 0: train=600 val=100 test=200
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+  ep   1/5 loss=1.6778 val_loss=1.6214 val_dice=0.0622 val_iou=0.0327 [19s]
+  ep   2/5 loss=1.5911 val_loss=1.5440 val_dice=0.2170 val_iou=0.1298 [43s]
+  ep   3/5 loss=1.5283 val_loss=1.4987 val_dice=0.3080 val_iou=0.1987 [58s]
+  ep   4/5 loss=1.4969 val_loss=1.4797 val_dice=0.3225 val_iou=0.2108 [73s]
+  ep   5/5 loss=1.4921 val_loss=1.4761 val_dice=0.3330 val_iou=0.2187 [88s]
+[svaeunetpp] fold 0 TEST: dice=0.3729 iou=0.2548 accuracy=0.9588 sensitivity=0.7737 precision=0.2781
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+[efficient_unet] figshare fold 0: train=600 val=100 test=200
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+  ep   1/5 loss=1.5299 val_loss=1.4814 val_dice=0.1899 val_iou=0.1127 [8s]
+  ep   2/5 loss=1.4457 val_loss=1.4120 val_dice=0.3225 val_iou=0.2110 [15s]
+  ep   3/5 loss=1.3965 val_loss=1.3738 val_dice=0.3917 val_iou=0.2744 [22s]
+  ep   4/5 loss=1.3612 val_loss=1.3559 val_dice=0.4303 val_iou=0.3074 [29s]
+  ep   5/5 loss=1.3561 val_loss=1.3536 val_dice=0.4238 val_iou=0.3006 [36s]
+[efficient_unet] fold 0 TEST: dice=0.4445 iou=0.3275 accuracy=0.9721 sensitivity=0.6982 precision=0.3812
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+[efficient_unetpp] figshare fold 0: train=600 val=100 test=200
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+  ep   1/5 loss=1.6533 val_loss=1.6422 val_dice=0.0603 val_iou=0.0316 [11s]
+  ep   2/5 loss=1.5658 val_loss=1.5608 val_dice=0.1024 val_iou=0.0558 [24s]
+  ep   3/5 loss=1.5094 val_loss=1.5133 val_dice=0.1620 val_iou=0.0929 [37s]
+  ep   4/5 loss=1.4752 val_loss=1.4887 val_dice=0.2219 val_iou=0.1328 [49s]
+  ep   5/5 loss=1.4639 val_loss=1.4842 val_dice=0.2355 val_iou=0.1424 [61s]
+[efficient_unetpp] fold 0 TEST: dice=0.2505 iou=0.1542 accuracy=0.9165 sensitivity=0.8396 precision=0.1612
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+[unet] figshare fold 0: train=600 val=100 test=200
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+  ep   1/5 loss=1.5662 val_loss=1.5260 val_dice=0.1622 val_iou=0.0931 [4s]
+  ep   2/5 loss=1.4944 val_loss=1.4666 val_dice=0.2990 val_iou=0.1967 [8s]
+  ep   3/5 loss=1.4552 val_loss=1.4315 val_dice=0.3315 val_iou=0.2197 [12s]
+  ep   4/5 loss=1.4233 val_loss=1.4139 val_dice=0.3569 val_iou=0.2384 [15s]
+  ep   5/5 loss=1.4093 val_loss=1.4116 val_dice=0.3590 val_iou=0.2417 [19s]
+[unet] fold 0 TEST: dice=0.3940 iou=0.2789 accuracy=0.9627 sensitivity=0.7669 precision=0.3041
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+[unetpp] figshare fold 0: train=600 val=100 test=200
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+  ep   1/5 loss=1.5074 val_loss=1.4634 val_dice=0.2113 val_iou=0.1297 [9s]
+  ep   2/5 loss=1.4321 val_loss=1.4022 val_dice=0.3362 val_iou=0.2284 [17s]
+  ep   3/5 loss=1.3802 val_loss=1.3636 val_dice=0.3434 val_iou=0.2260 [25s]
+  ep   4/5 loss=1.3561 val_loss=1.3460 val_dice=0.3771 val_iou=0.2534 [32s]
+  ep   5/5 loss=1.3378 val_loss=1.3427 val_dice=0.3886 val_iou=0.2639 [40s]
+[unetpp] fold 0 TEST: dice=0.4091 iou=0.2860 accuracy=0.9665 sensitivity=0.7667 precision=0.3173
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+[unet3p] figshare fold 0: train=600 val=100 test=200
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+  ep   1/5 loss=1.5130 val_loss=1.3829 val_dice=0.2612 val_iou=0.1644 [11s]
+  ep   2/5 loss=1.3231 val_loss=1.2671 val_dice=0.3927 val_iou=0.2771 [23s]
+  ep   3/5 loss=1.2306 val_loss=1.2037 val_dice=0.3955 val_iou=0.2773 [34s]
+  ep   4/5 loss=1.1839 val_loss=1.1748 val_dice=0.4258 val_iou=0.3031 [46s]
+  ep   5/5 loss=1.1750 val_loss=1.1677 val_dice=0.4217 val_iou=0.2981 [57s]
+[unet3p] fold 0 TEST: dice=0.4584 iou=0.3399 accuracy=0.9771 sensitivity=0.6729 precision=0.3983
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.2)
+  from scipy.sparse import csr_matrix, issparse
+wrote results/mini/report/REPORT.md
