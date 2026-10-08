@@ -1,0 +1,9 @@
+# datasets (re-create with scripts/download_data.py + scripts/preprocess.py)
+data/
+# experiment outputs, checkpoints and logs
+results/*/cv/
+results/*/logs/
+*.log
+*.pt
+__pycache__/
+.DS_Store

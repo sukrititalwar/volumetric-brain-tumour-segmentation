@@ -50,9 +50,11 @@ def load_cv(res):
 
 
 def fold_values(runs, metric, positive_only=False):
-    if positive_only:
-        return [np.mean([c[metric] for c in r["per_case"] if c.get("gt_positive", True)]) for r in runs]
-    return [r["metrics"][metric] for r in runs]
+    """One value per fold; with a single fold, one value per test case (so spread is still meaningful)."""
+    keep = lambda c: c.get("gt_positive", True) or not positive_only  # noqa: E731
+    if len(runs) == 1:
+        return [c[metric] for c in runs[0]["per_case"] if keep(c)]
+    return [np.mean([c[metric] for c in r["per_case"] if keep(c)]) for r in runs]
 
 
 def pm(v, pct=True):
@@ -65,12 +67,14 @@ def table(header, rows):
     return s + "".join("| " + " | ".join(str(c) for c in r) + " |\n" for r in rows)
 
 
-def main(res):
+def main(res):  # noqa: C901
     rep = os.path.join(res, "report")
     os.makedirs(rep, exist_ok=True)
     cv = load_cv(res)
+    nfold = max((len(r) for d in cv.values() for r in d.values()), default=0)
+    spread = "over folds" if nfold > 1 else "over test cases of the single CV fold"
     md = [f"# SVAEUnet++ / RUNU-ECO reproduction report (`{res}`)\n",
-          "All numbers are percentages on held-out CV test folds (mean ± std over folds) unless stated. "
+          f"All numbers are percentages on held-out CV test data (mean ± std {spread}) unless stated. "
           "IoU = Jaccard = TP/(TP+FP+FN). BraTS metrics are per-subject on the whole-tumour (WT) region at the "
           "preprocessed 1.6 mm grid; 2D metrics are per-slice.\n"]
 
@@ -87,8 +91,19 @@ def main(res):
                 rows.append([DS_LABEL.get(ds, ds), opt, b["hidden_neurons"], f"{b['learning_rate']:.2e}", b["steps_per_epoch"],
                              f"{h['best_iou']:.4f}", len(h["evaluations"]), f"{h['seconds'] / 60:.0f}"])
         md.append("## Hyper-parameter optimisation (Eq. 6, Algorithm 1)\n")
+        reused = sorted({DS_LABEL.get(ds, ds) for ds, d in hpo.items() for h in d.values()
+                         if os.path.normpath(h.get("settings", {}).get("out", "")) != os.path.normpath(os.path.join(res, "hpo"))})
+        if reused:
+            md.append("*HPO reused from a larger-budget run (see Trainings/Minutes): " + ", ".join(reused) + ".*\n")
         md.append(table(["Dataset", "Optimizer", "Hidden neurons", "Learning rate", "Steps/epoch", "Best val IoU (proxy)",
                          "Trainings", "Minutes"], rows))
+        for ds, d in hpo.items():
+            if "ECO" in d and "RUNU-ECO" in d and d["ECO"]["best_hparams"] == d["RUNU-ECO"]["best_hparams"]:
+                md.append(f"\n*{DS_LABEL.get(ds, ds)}: ECO and RUNU-ECO returned identical hyper-parameters, so "
+                          "ECO-SVAEUnet++ would be the same model and is not cross-validated separately. With the same "
+                          "seed both runs are identical in stage 1 (which does not use the modified random number), and "
+                          "the best point was found by an update that does not use it either - this budget cannot "
+                          "separate the two optimisers.*\n")
         fig, axes = plt.subplots(1, len(hpo), figsize=(4.2 * len(hpo), 3.2), squeeze=False)
         for ax, (ds, d) in zip(axes[0], hpo.items()):
             for opt, h in d.items():
@@ -137,7 +152,7 @@ def main(res):
         if ds == "lgg":
             rows = [[LABEL[t]] + [pm(fold_values(R[t], m, True)) for m in ("dice", "iou", "precision", "sensitivity")]
                     for t in ALL if t in R]
-            md.append("\n*LGG, tumour-positive slices only* (empty slices count as perfect in the table above)\n\n"
+            md.append("\n*LGG, tumour-positive slices only* (in the table above a tumour-free slice scores 1 only if nothing is predicted, else 0)\n\n"
                       + table(["Model", "Dice", "IoU", "Precision", "Recall"], rows))
         # Table 7 analogue (over folds)
         rows = []
@@ -146,7 +161,7 @@ def main(res):
                 if t in R:
                     d = describe(fold_values(R[t], m))
                     rows.append([m, LABEL[t]] + [f"{d[k]:.4f}" for k in ("best", "worst", "mean", "median", "std")])
-        md.append("\n**Table 7 analogue - statistics over folds**\n\n" + table(["Metric", "Model", "Best", "Worst", "Mean", "Median", "Std"], rows))
+        md.append(f"\n**Table 7 analogue - statistics {spread}**\n\n" + table(["Metric", "Model", "Best", "Worst", "Mean", "Median", "Std"], rows))
         # Table 8 analogue
         rows = [[LABEL[t]] + [pm(fold_values(R[t], m)) for m in ("dice", "iou", "accuracy", "sensitivity", "f1")]
                 for t in ABLATION if t in R]

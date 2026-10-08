@@ -1,0 +1,201 @@
+{
+ "dataset": "brats",
+ "optimizer": "ECO",
+ "best_hparams": {
+  "hidden_neurons": 95,
+  "learning_rate": 0.009652660953493764,
+  "steps_per_epoch": 325
+ },
+ "best_fitness": 1.6280961792067152,
+ "best_iou": 0.6142143276125412,
+ "curve": [
+  1.7641400254155946,
+  1.6280961792067152,
+  1.6280961792067152,
+  1.6280961792067152
+ ],
+ "evaluations": [
+  {
+   "hidden_neurons": 236,
+   "learning_rate": 0.0037671658692899498,
+   "steps_per_epoch": 163,
+   "iou": 0.38183169827547775,
+   "fitness": 2.6189549074014704,
+   "seconds": 52.62256097793579
+  },
+  {
+   "hidden_neurons": 21,
+   "learning_rate": 0.0016401896152067506,
+   "steps_per_epoch": 227,
+   "iou": 0.37939359014096924,
+   "fitness": 2.6357851739889315,
+   "seconds": 62.79881691932678
+  },
+  {
+   "hidden_neurons": 244,
+   "learning_rate": 0.003790099643919269,
+   "steps_per_epoch": 497,
+   "iou": 0.5668484278986986,
+   "fitness": 1.7641400254155946,
+   "seconds": 118.43079400062561
+  },
+  {
+   "hidden_neurons": 66,
+   "learning_rate": 0.001591813775643241,
+   "steps_per_epoch": 104,
+   "iou": 0.08303326951548619,
+   "fitness": 12.04336533819729,
+   "seconds": 38.279759883880615
+  },
+  {
+   "hidden_neurons": 127,
+   "learning_rate": 0.00018182796387690772,
+   "steps_per_epoch": 416,
+   "iou": 0.2180388092182781,
+   "fitness": 4.586339485090943,
+   "seconds": 92.44024395942688
+  },
+  {
+   "hidden_neurons": 150,
+   "learning_rate": 0.0008806605920328542,
+   "steps_per_epoch": 497,
+   "iou": 0.3597185943859575,
+   "fitness": 2.7799508160177484,
+   "seconds": 118.23811388015747
+  },
+  {
+   "hidden_neurons": 244,
+   "learning_rate": 0.0001,
+   "steps_per_epoch": 493,
+   "iou": 0.032471168071854566,
+   "fitness": 30.79655150646651,
+   "seconds": 115.34769105911255
+  },
+  {
+   "hidden_neurons": 236,
+   "learning_rate": 0.0037659866883396273,
+   "steps_per_epoch": 146,
+   "iou": 0.36274307426491886,
+   "fitness": 2.7567721369359046,
+   "seconds": 58.931138038635254
+  },
+  {
+   "hidden_neurons": 16,
+   "learning_rate": 0.0016053746893875571,
+   "steps_per_epoch": 221,
+   "iou": 0.12638871442286173,
+   "fitness": 7.91209883387433,
+   "seconds": 65.01506114006042
+  },
+  {
+   "hidden_neurons": 151,
+   "learning_rate": 0.000896641964231496,
+   "steps_per_epoch": 497,
+   "iou": 0.24526158904807738,
+   "fitness": 4.077279299548104,
+   "seconds": 140.1549482345581
+  },
+  {
+   "hidden_neurons": 121,
+   "learning_rate": 0.00015315739489057015,
+   "steps_per_epoch": 411,
+   "iou": 0.36264861294961376,
+   "fitness": 2.7574902103346512,
+   "seconds": 207.53152322769165
+  },
+  {
+   "hidden_neurons": 64,
+   "learning_rate": 0.001575730721525011,
+   "steps_per_epoch": 100,
+   "iou": 0.2780858174545024,
+   "fitness": 3.59601222800084,
+   "seconds": 127.37959408760071
+  },
+  {
+   "hidden_neurons": 255,
+   "learning_rate": 0.0030259972697328865,
+   "steps_per_epoch": 488,
+   "iou": 0.5610380058579755,
+   "fitness": 1.7824104419997993,
+   "seconds": 358.2023751735687
+  },
+  {
+   "hidden_neurons": 154,
+   "learning_rate": 0.01,
+   "steps_per_epoch": 100,
+   "iou": 0.2913938040829,
+   "fitness": 3.4317819596311843,
+   "seconds": 117.2063000202179
+  },
+  {
+   "hidden_neurons": 8,
+   "learning_rate": 0.01,
+   "steps_per_epoch": 141,
+   "iou": 0.5213334208885662,
+   "fitness": 1.9181582456301949,
+   "seconds": 111.28783226013184
+  },
+  {
+   "hidden_neurons": 76,
+   "learning_rate": 0.0029301751098095717,
+   "steps_per_epoch": 266,
+   "iou": 0.453216405186011,
+   "fitness": 2.2064514623860005,
+   "seconds": 314.53016901016235
+  },
+  {
+   "hidden_neurons": 95,
+   "learning_rate": 0.009652660953493764,
+   "steps_per_epoch": 325,
+   "iou": 0.6142143276125412,
+   "fitness": 1.6280961792067152,
+   "seconds": 184.8473298549652
+  },
+  {
+   "hidden_neurons": 37,
+   "learning_rate": 0.01,
+   "steps_per_epoch": 100,
+   "iou": 0.38422886719899685,
+   "fitness": 2.602615486155255,
+   "seconds": 95.12486696243286
+  },
+  {
+   "hidden_neurons": 240,
+   "learning_rate": 0.01,
+   "steps_per_epoch": 311,
+   "iou": 0.5867152942009103,
+   "fitness": 1.70440418016028,
+   "seconds": 203.90921235084534
+  },
+  {
+   "hidden_neurons": 5,
+   "learning_rate": 0.01,
+   "steps_per_epoch": 100,
+   "iou": 0.4360068595476207,
+   "fitness": 2.2935418975691135,
+   "seconds": 70.38533306121826
+  },
+  {
+   "hidden_neurons": 228,
+   "learning_rate": 0.01,
+   "steps_per_epoch": 100,
+   "iou": 0.4477623028816669,
+   "fitness": 2.233327802640582,
+   "seconds": 56.199824810028076
+  }
+ ],
+ "settings": {
+  "dataset": "brats",
+  "optimizer": "eco",
+  "model": "svaeunetpp",
+  "pop": 6,
+  "iters": 4,
+  "epochs": 3,
+  "budget_scale": 0.1,
+  "max_train": 60,
+  "max_val": 12,
+  "seed": 0,
+  "out": "results/quick/hpo"
+ },
+ "seconds": 2709.626293182373
+}
